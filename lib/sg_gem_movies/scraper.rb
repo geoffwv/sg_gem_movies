@@ -11,7 +11,7 @@ class Scraper
   end
   
   def self.scrape_movie_details
-    html = open("https://www.imdb.com/#{movie.url}")
+    html = open("https://www.imdb.com#{movie.url}")
     doc = Nokogiri::HTML(html)
   end
   

@@ -1,9 +1,8 @@
-require "sg_gem_movies/version"
-
 require 'nokogiri'
 require 'open-uri'
 require 'pry'
 
-require_relative "../lib/cli"
-require_relative "../lib/movie"
-require_relative "../lib/scraper
+require_relative "./sg_gem_movies/cli"
+require_relative "./sg_gem_movies/movie"
+require_relative "./sg_gem_movies/scraper"
+require_relative "./sg_gem_movies/version"
