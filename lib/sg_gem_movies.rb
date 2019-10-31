@@ -1,6 +1,9 @@
 require "sg_gem_movies/version"
 
-module SgGemMovies
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require 'nokogiri'
+require 'open-uri'
+require 'pry'
+
+require_relative "../lib/cli"
+require_relative "../lib/movie"
+require_relative "../lib/scraper
